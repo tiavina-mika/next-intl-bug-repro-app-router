@@ -1,11 +1,7 @@
 import createMiddleware from 'next-intl/middleware';
-import {locales, localePrefix, defaultLocale} from './navigation';
+import {routing} from './routing';
 
-export default createMiddleware({
-  defaultLocale,
-  locales,
-  localePrefix
-});
+export default createMiddleware(routing);
 
 export const config = {
   matcher: ['/', '/(en)/:path*']
