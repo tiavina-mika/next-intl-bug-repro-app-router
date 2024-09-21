@@ -1,5 +1,8 @@
 {
   "IndexPage": {
     "title": "Hello!"
+  },
+  "NotFoundPage": {
+    "title": "Page not found!!!"
   }
 }
